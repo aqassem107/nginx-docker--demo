@@ -10,10 +10,10 @@ This project demonstrates how to build and run a simple Docker container using N
 ## How to Run
 
 1. **Build the Docker image:**
-docker build -t my-nginx-demo
+docker build -t my-nginx-demo:latest .
 
   2. **Run the container:**
-   docker run -p 8080:80 -d my-nginx-demo
+   docker run -p 8080:80 -d my-nginx-demo:latest
    
 3. **View in browser:**
 - Go to `http://localhost:8080` to see the web page.
